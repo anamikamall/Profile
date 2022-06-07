@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/Profile/style.css" rel="stylesheet">
+  <title>Profile</title>
+  <script src="https://kit.fontawesome.com/df18247ca8.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="bg-center bg-cover bg-no-repeat relative" style="background-image: linear-gradient(87deg,rgba(23, 43, 77, 0.8),rgba(26, 23, 77, 0.8)),url(https://mcdn.wallpapersafari.com/medium/11/81/ZOUrKm.jpg);
+max-height: 90vh;">
+ <nav class="flex flex-row justify-between items-center text-white px-10 pt-6">
+
+<div class="uppercase text-2xl font-medium">User Profile</div>
+<div class="flex flex-row items-center">
+<!-- <div><h4 class="flex flex-row items-center"><i class="fa-solid fa-magnifying-glass text-lg"></i>Search</h4></div> -->
+<form class="flex flex-row items-center border-solid border-2 border-white rounded-full">
+  <i class="fa-solid fa-magnifying-glass text-lg m-2 pl-2"></i>
+  <input type="text" placeholder="Search" class="rounded-full w-64 text-lg outline-0 pl-1 bg-transparent">
+</form>
+<div class="ml-6">
+  <a class="flex items-center text-xl"><img src="https://dpwhatsapp.xyz/wp-content/uploads/2021/08/Anime-Girl-WhatsApp-DP.jpg" 
+    alt="" style="height: 50px; width: 50px;" class="rounded-full mr-2">Anna</a>
+</div>
+</div>
+ </nav>
+ <section class="text-white flex flex-col justify-center items-start px-10">
+   <h2 class="mt-40 text-5xl font-semibold">Hello Anna</h2>
+   <p class="text-xl w-6/12 pt-8 pb-10">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
+   <button class="btn-info mb-40 px-5 py-2 rounded-md text-lg font-semibold hover:-translate-y-1 active:ring-2 transition-transform">Edit Profile</button>
+ </section>
+</div>
+ <section class="flex flex-row px-10 top-3/4 absolute pb-12">
+   <div class="bg-white mr-4 w-3/5 p-6 rounded-md drop-shadow-2xl">
+     <div class="flex flex-row justify-between text-2xl py-4">
+       <h3 class="font-semibold">My Account</h3>
+       <button class="btn-prpl rounded-md px-5 py-2 text-lg text-white font-semibold hover:-translate-y-1 active:ring-2 transition-transform
+       drop-shadow-lg">Settings</button>
+     </div>
+     <form style="background: #F7FAFC" >
+       <div class="py-8">
+       <h6 class="text-gray-500 uppercase font-medium text-xl" >User Information</h6>
+       <div class="flex flex-row pl-4 justify-between text-lg font-medium">
+       <div class="w-1/2 pr-6 py-3">
+       <label for="" id="">Username</label><br>
+       <input id="" type="text" placeholder="anna.mall" required class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+      </div>
+      <div class="w-1/2 py-3">
+        <label for="" id="">Email Adress</label><br>
+        <input id="" type="email" placeholder="anna@example.com" required  class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+       </div>
+      </div>
+      <div class="flex flex-row justify-between pl-4 text-lg font-medium">
+        <div class="w-1/2 pr-6 py-3">
+        <label for="" id="">First name</label><br>
+        <input id="" type="text" placeholder="Anna" required  class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+       </div>
+       <div class="w-1/2 py-3">
+         <label for="" id="">Last name</label><br>
+         <input id="" type="text" placeholder="Mall" required class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+        </div>
+       </div>
+      </div>
+      <div class="border-y-2 border-gray-400 my-8 py-8">
+        <h6 class="text-gray-500 uppercase font-medium text-xl">CONTACT INFORMATION</h6>
+        <div class="pl-4 text-lg font-medium py-3">
+          <label for="" id="">Address</label><br>
+          <input id="" type="text" placeholder="Delhi-NCR, Meerut Road (NH-58)" required  class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+        </div>
+        <div class="flex flex-row justify-between pl-4 text-lg font-medium">
+          <div class="w-1/3 pr-6 py-3">
+            <label for="" id="">City</label><br>
+            <input id="" type="text" placeholder="Gaziabad" required class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+           </div>
+           <div class="w-1/3 pr-6 py-3">
+             <label for="" id="">Country</label><br>
+             <input id="" type="text" placeholder="India" required class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+            </div>
+            <div class="w-1/3 py-3">
+              <label for="" id="">Postal Code</label><br>
+              <input id="" type="number" placeholder="201206" required class="outline-0 text-gray-500 rounded-md h-10 w-full drop-shadow-lg">
+             </div>
+        </div>
+      </div>
+      <div class="py-6">
+        <h6 class="text-gray-500 uppercase font-medium text-xl">About Me</h6>
+        <div class="pl-4 text-lg font-medium py-3">
+        <p>About Me</p>
+        <textarea name="suggestion" rows="7" cols="50" class="txt w-full outline-0 text-gray-500 rounded-md drop-shadow-lg" placeholder="Enter here..."></textarea>
+      </div>
+      </div>
+     </form>
+   </div>
+   <div class="bg-white ml-4 w-2/5 h-max rounded-md drop-shadow-2xl p-8 text-center">
+     <div class="flex flex-row justify-center items-center relative -top-20">
+       <div>
+       <button class="btn-info rounded-md px-5 py-2 text-lg text-white font-semibold hover:-translate-y-1 active:ring-2 transition-transform
+       drop-shadow-lg">Connect</button>
+      </div>
+  <img src="https://dpwhatsapp.xyz/wp-content/uploads/2021/08/Anime-Girl-WhatsApp-DP.jpg" alt="" class="h-52 w-52 rounded-full hover:-translate-y-1 active:ring-2 transition-transform
+  drop-shadow-lg">
+<div>
+  <button class="btn-msg rounded-md px-5 py-2 text-lg text-white font-semibold hover:-translate-y-1 active:ring-2 transition-transform
+  drop-shadow-lg">Message</button>
+</div>
+     </div>
+     <div class="flex flex-row justify-around text-xl">
+     <div class="ml-20">
+       <h3 class="font-semibold">22</h3>
+       <p class="text-gray-500">Friends</p>
+     </div>
+     <div class="mx-16">
+      <h3 class="font-semibold">10</h3>
+      <p class="text-gray-500">Photos</p>
+    </div>
+    <div class="mr-20">
+      <h3 class="font-semibold">89</h3>
+      <p class="text-gray-500">Comments</p>
+    </div>
+  </div>
+  <div class="border-b-2 my-8 border-gray-400">
+    <h2 class="text-xl font-semibold mt-4">Anna Mall<span class="font-light">, 18</span></h2>
+    <p class="text-lg text-gray-700 font-extralight mb-4">Gaziabad,India</p>
+    <p class="text-lg font-normal mt-4">Solution Manager - Creative Tim Officer</p>
+    <p class="text-lg text-gray-700 font-normal mb-6">University of Computer Science</p>
+  </div>
+  <div class=" text-base mx-14">
+    <p class="text-gray-600 font-light mb-4">Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.</p>
+    <a href="#" class="text-blue-700 text-lg ">Show more</a>
+  </div>
+   </div>
+ </section>
+</body>
+</html>
